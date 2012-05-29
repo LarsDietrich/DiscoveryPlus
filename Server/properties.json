@@ -1,0 +1,31 @@
+{
+	"private" : false,
+	"info" : {
+		"title" : "Code Three",
+		"desc" : "This is the official server that comes free with your app purchase.",
+		"restriction" : {
+			"iphone" : true,
+			"ipad" : true,
+			"ipod" : true,
+			"android" : true,
+			"win7" : true,
+			"blackberry" : true,
+			"pc" : false,
+			"mac": false
+		},
+		"eula" : "You are free to use this server as long as you have purchased the DiscoveryPlus application.",
+		"region" : {"region_lim" : true , "include" : ["Luxembourg"] , "exclude" : []}
+	},
+	"mysql" : {
+		"host" : "localhost",
+		"dtbs" : "gityerown",
+		"user" : "gityerown",
+		"pass" : "gityerown",
+		"tbls" : {
+			"interests" : "interests",
+			"sessionID" : "sID",
+			"userData" : "userData",
+			"apiKeys" : "apiKeys"
+		}
+	}
+}

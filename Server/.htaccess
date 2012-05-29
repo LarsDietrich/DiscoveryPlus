@@ -1,0 +1,6 @@
+DirectoryIndex core.php index.html index.htm index.php
+
+<Files properties.json>
+  order allow,deny
+  deny from all
+</Files>
